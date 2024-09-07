@@ -1,0 +1,76 @@
+level of school,performance in secondary school,type of school,interested subject,percentage in maths,percentage in physics,percentage in chemistry,level of communication skills,medium of education,interst in sport,extra curricular activities,attend course after ssc,course,ug completed,ug course,ug percentage,Recommend Course
+ssc,65,Government,Chemistry,56,51,63,Low,Tamil,yes,no,no,none,no,none,0,BSc Chemistry
+ssc,62,Government,Physics,67,74,79,Medium,Tamil,no,yes,no,none,no,none,0,BSc Physics
+cbse,74,Private,English,72,75,68,High,English,no,yes,no,none,no,none,0,BBA
+cbse,83,Private,Maths,92,69,75,Medium,Tamil,yes,yes,no,none,no,none,0,BSc Maths
+icse,91,Private,Maths,96,83,93,Medium,English,yes,yes,no,none,no,none,0,BE
+ssc,85,Private,Physics,75,78,71,Medium,English,yes,no,no,none,yes,Bsc,75,MSc
+ssc,78,Government,Maths,86,81,88,High,English,yes,yes,no,none,yes,BCA,81,MCA
+cbse,90,Government,Chemistry,78,79,74,Low,Tamil,yes,no,no,none,yes,BBA,74,MBA
+,80,Private,Physics,65,58,71,Low,English,yes,no,no,,,BSc,75,MSc
+icse,87,Private,Chemistry,80,56,89,High,English,no,yes,no,none,yes,none,0,BSc Chemistry
+cbse,95,Government,Maths,94,90,87,Medium,Tamil,no,yes,no,none,yes,B.Tech,87,M.Tech
+icse,72,Government,Physics,80,81,79,Medium,English,no,no,yes,Web Designing,no,none,0,Bsc
+ssc,95,Private,Maths,99,83,91,High,English,yes,yes,yes,Java,no,none,0,B.Tech IT
+cbse,83,Government,English,87,85,81,High,English,no,yes,no,none,no,none,0,BCA
+ssc,79,Private,Maths,92,88,86,Medium,Tamil,yes,yes,yes,Python,no,none,0,BE
+cbse,92,Private,Maths,97,92,90,Medium,English,yes,yes,no,none,no,none,0,BE
+ssc,87,Private,Physics,75,78,71,Medium,English,yes,no,no,none,yes,BCA,78,MCA
+ssc,81,Government,Maths,96,89,85,High,English,yes,yes,no,none,yes,BE ECE,81,ME Communication
+cbse,78,Government,Chemistry,71,62,74,Low,Tamil,yes,no,no,none,yes,BBA,72,MBA
+ssc,86,Private,Chemistry,75,61,80,High,English,no,yes,no,none,yes,none,0,BSc Chemistry
+cbse,91,Government,Maths,94,90,87,Medium,Tamil,no,yes,no,none,yes,B.Tech,87,M.Tech
+cbse,75,Government,Physics,76,65,78,Medium,English,no,no,yes,Web Designing,no,none,0,Bsc
+ssc,91,Private,Maths,95,90,93,High,English,yes,yes,yes,Python,no,none,0,BE
+icse,93,Private,Maths,91,92,96,Medium,English,yes,yes,no,none,no,none,0,BE
+ssc,79,Private,Physics,77,77,75,Medium,English,yes,no,no,none,yes,Bsc,74,MSc
+ssc,75,,Maths,56,63,,Medium,English,yes,no,no,none,yes,BCA,75,MCA
+ssc,77,Government,Maths,86,76,88,High,English,yes,yes,no,none,yes,BCA,83,MCA
+cbse,91,Government,Chemistry,78,63,74,Low,Tamil,yes,no,no,none,yes,BBA,75,MBA
+icse,88,Private,Chemistry,80,76,81,High,English,no,yes,no,none,yes,none,0,BSc Chemistry
+cbse,96,Government,Maths,94,94,87,Medium,Tamil,no,yes,no,none,yes,B.Tech,88,M.Tech
+icse,73,Government,Physics,80,83,79,Medium,English,no,no,yes,Web Designing,no,none,0,Bsc
+cbse,73,Private,Chemistry,80,91,80,High,English,no,no,no,none,no,none,0,BCA
+ssc,96,Private,Maths,99,89,93,High,English,yes,yes,yes,Java,no,none,0,B.Tech IT
+cbse,84,Government,English,87,85,82,High,English,no,yes,no,none,no,none,0,BCA
+ssc,78,Private,Maths,92,88,86,Medium,Tamil,yes,yes,yes,Python,no,none,0,BE
+cbse,94,Private,Maths,94,82,95,Medium,English,yes,yes,no,none,no,none,0,BE
+cbse,74,Government,Physics,76,65,72,Medium,English,no,no,yes,Java,no,none,0,Bsc
+ssc,91,Private,Maths,95,90,93,High,English,yes,yes,yes,Python,no,none,0,BE
+icse,95,Private,Maths,91,92,98,Medium,English,yes,yes,no,none,no,none,0,BE
+ssc,79,Private,Physics,77,77,75,Medium,English,yes,no,no,none,yes,Bsc,74,MSc
+ssc,75,Private,Maths,56,65,72,Medium,English,yes,no,no,none,yes,BCA,75,MCA
+ssc,82,Government,Maths,86,76,88,High,English,yes,yes,no,none,yes,BCA,83,MCA
+cbse,91,Government,Chemistry,78,63,63,Low,Tamil,yes,no,no,none,yes,BBA,73,MBA
+icse,81,Private,Chemistry,80,76,81,High,English,no,yes,no,none,yes,none,0,BSc Chemistry
+cbse,96,Government,Maths,94,94,87,Medium,Tamil,no,yes,no,none,yes,B.Tech,88,M.Tech
+icse,73,Government,Physics,80,83,79,Medium,English,no,no,yes,Python,no,none,0,Bsc
+cbse,73,Private,Chemistry,71,91,81,High,English,no,no,no,none,no,none,0,BSc
+ssc,96,Private,Maths,99,89,93,High,English,yes,yes,yes,Java,no,none,0,B.Tech IT
+cbse,84,Government,English,87,85,82,High,English,no,yes,no,none,no,none,0,BCA
+ssc,71,Private,English,92,88,86,Medium,English,yes,yes,yes,Python,no,none,0,BE
+cbse,94,Private,Maths,94,82,95,Medium,English,yes,yes,no,none,no,none,0,BE
+cbse,92,Private,Maths,97,92,90,Medium,English,yes,yes,no,none,no,none,0,BE
+ssc,87,Private,Physics,75,78,71,Medium,English,yes,no,no,none,yes,BCA,78,MCA
+ssc,81,Government,Maths,96,89,85,High,English,yes,yes,no,none,yes,BE ECE,81,ME Communication
+cbse,78,Government,Chemistry,71,62,74,Low,Tamil,yes,no,no,none,yes,BBA,72,MBA
+ssc,86,Private,Chemistry,75,61,80,High,English,no,yes,no,none,yes,none,0,BSc Chemistry
+cbse,91,Government,Maths,94,90,87,Medium,Tamil,no,yes,no,none,yes,B.Tech,87,M.Tech
+cbse,75,Government,Physics,76,65,78,Medium,English,no,no,yes,Web Designing,no,none,0,Bsc
+ssc,91,Private,Maths,95,90,93,High,English,yes,yes,yes,Python,no,none,0,BE
+icse,93,Private,Maths,91,92,96,Medium,English,yes,yes,no,none,no,none,0,BE
+ssc,79,Private,Physics,77,77,75,Medium,English,yes,no,no,none,yes,Bsc,74,MSc
+ssc,75,Government,Maths,56,63,68,Medium,English,yes,no,no,none,yes,BSc,68,MSc
+ssc,77,Government,Maths,86,76,88,High,English,yes,yes,no,none,yes,BCA,83,MCA
+cbse,91,Government,Chemistry,78,63,74,Low,Tamil,yes,no,no,none,yes,BBA,75,MBA
+icse,88,Private,Chemistry,80,76,81,High,English,no,yes,no,none,yes,none,0,BSc Chemistry
+cbse,96,Government,Maths,94,94,87,Medium,Tamil,no,yes,no,none,yes,B.Tech,88,M.Tech
+icse,73,Government,Physics,80,83,79,Medium,English,no,no,yes,Web Designing,no,none,0,Bsc
+cbse,73,Private,Chemistry,80,91,80,High,English,no,no,no,none,no,none,0,BCA
+ssc,96,Private,Maths,99,89,93,High,English,yes,yes,yes,Java,no,none,0,B.Tech IT
+ssc,77,Government,Maths,86,76,88,High,English,yes,yes,no,none,yes,BCA,83,MCA
+cbse,92,Government,Chemistry,72,69,75,Low,Tamil,yes,no,no,none,yes,BBA,75,MBA
+icse,86,Private,Chemistry,84,78,81,High,English,no,yes,no,none,yes,none,0,BSc Chemistry
+cbse,91,Government,Chemistry,78,63,63,Low,Tamil,yes,no,no,none,yes,BBA,73,MBA
+icse,82,Private,Chemistry,81,75,83,High,English,no,yes,no,none,yes,none,0,BSc Chemistry
+cbse,92,Government,Maths,93,90,89,Medium,Tamil,no,yes,no,none,yes,BE CSE,88,ME Computer Science

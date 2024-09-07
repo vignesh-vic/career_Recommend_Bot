@@ -1,0 +1,13 @@
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod] # Also ignore .pyc, .pyo, .pyd files
+
+# Ignore VS Code settings
+.vscode/
+
+# Other common files and folders to ignore
+node_modules/
+dist/
+.env

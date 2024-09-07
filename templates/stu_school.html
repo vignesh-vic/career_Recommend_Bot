@@ -1,0 +1,310 @@
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="../static/img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Career Recommendation</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="../static/css/linearicons.css">
+			<link rel="stylesheet" href="../static/css/font-awesome.min.css">
+			<link rel="stylesheet" href="../static/css/bootstrap.css">
+			<link rel="stylesheet" href="../static/css/magnific-popup.css">
+			<link rel="stylesheet" href="../static/css/nice-select.css">							
+			<link rel="stylesheet" href="../static/css/animate.min.css">
+			<link rel="stylesheet" href="../static/css/owl.carousel.css">			
+			<link rel="stylesheet" href="../static/css/jquery-ui.css">			
+			<link rel="stylesheet" href="../static/css/main.css">
+
+<script language="javascript">
+function getSchool()
+{
+	if(document.form1.c2.checked==true)
+	{
+		document.getElementById("x1").style.display="block";
+	}
+	else
+	{
+		document.getElementById("x1").style.display="none";
+	}
+}
+function validate()
+{
+if(document.form1.school1.value=="")
+		{
+		alert("Enter the SSLC School");
+		document.form1.school1.focus();
+		return false;
+		}
+		if(document.form1.mark1.value=="")
+		{
+		alert("Enter the SSLC Mark");
+		document.form1.mark1.focus();
+		return false;
+		}
+		if(document.form1.percent1.value=="")
+		{
+		alert("Enter the SSLC Percentage");
+		document.form1.percent1.focus();
+		return false;
+		}
+		
+	if(document.form1.c2.checked==true)
+	{
+		if(document.form1.school2.value=="")
+		{
+		alert("Enter the HSC School");
+		document.form1.school2.focus();
+		return false;
+		}
+		if(document.form1.mark2.value=="")
+		{
+		alert("Enter the HSC Mark");
+		document.form1.mark2.focus();
+		return false;
+		}
+		if(document.form1.percent2.value=="")
+		{
+		alert("Enter the HSC Percentage");
+		document.form1.percent2.focus();
+		return false;
+		}
+		if(document.form1.hs_group.selectedIndex==0)
+		{
+		alert("Select the HSC Group");
+		document.form1.hs_group.focus();
+		return false;
+		}
+	}
+	return true;
+}
+</script>
+
+		</head>
+		<body>	
+		  <header id="header" id="home">
+	  		<div class="header-top">
+	  			<div class="container">
+			  		<div class="row">
+			  			<div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
+			  				<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-behance"></i></a></li>
+			  				</ul>			
+			  			</div>
+			  			<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
+			  				<a href="tel:"><span class="lnr lnr-phone-handset"></span> <span class="text"></span></a>
+			  				<a href="mailto:support@colorlib.com"><span class="lnr lnr-envelope"></span> <span class="text">career@info.com</span></a>			
+			  			</div>
+			  		</div>			  					
+	  			</div>
+			</div>
+		    <div class="container main-menu">
+		    	<div class="row align-items-center justify-content-between d-flex">
+			      <div id="logo">
+			        <a href="../static/index.html"><img src="../static/img/logo.png" alt="" title="" /></a>
+			      </div>
+			      <nav id="nav-menu-container">
+			        <ul class="nav-menu">
+			          <li><a href="/stu_home">Home</a></li>
+			          <li><a href="/stu_recommend">Recommendation</a></li>
+			          <li><a href="/logout">Logout</a></li>
+			          
+			        </ul>
+			      </nav><!-- #nav-menu-container -->		    		
+		    	</div>
+		    </div>
+		  </header><!-- #header -->
+	  
+			<!-- start banner Area -->
+			<section class="banner-area relative about-banner" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 class="text-white">
+								Student	
+							</h1>	
+							<p class="text-white link-nav"><a href="/stu_home">Home </a>  <span class="lnr lnr-arrow-right"></span>  </p>
+						</div>	
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->				  
+
+			<!-- Start contact-page Area -->
+			<section class="contact-page-area section-gap">
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-lg-4">
+							<img src="../static/img/b2.jpg">
+																		
+						</div>
+						<div class="col-lg-8 right-contents">
+						<p class="primary-btn text-uppercase">School Information</p>
+						<form name="form1" action="" method="post">
+								<div class="row">	
+									<div class="col-md-4">
+									Are you Completed?
+									</div>
+									<div class="col-md-6">
+										<input type="checkbox" name="c1" placeholder="" value="1" checked="checked"> SSLC
+										<input type="checkbox" name="c2" placeholder="" value="2" onClick="getSchool()"> HSC
+									</div>
+								</div>
+								<br>
+								<div class="row">	
+									<div class="col-md-4">
+									SSLC School Name
+									</div>
+									<div class="col-md-6">
+										<input type="text" name="school1" class="form-control" placeholder="">
+									</div>
+								</div>
+								<br>
+								<div class="row">	
+									<div class="col-md-4">
+									SSLC Total Mark
+									</div>
+									<div class="col-md-6">
+										<input type="text" name="mark1" class="form-control" placeholder="">
+									</div>
+								</div>
+								<br>
+								<div class="row">	
+									<div class="col-md-4">
+									SSLC Percentage
+									</div>
+									<div class="col-md-6">
+										<input type="text" name="percent1" class="form-control" placeholder="">
+									</div>
+								</div>
+								<br>
+								
+								<div id="x1" style="display:none">
+								<div class="row">	
+									<div class="col-md-4">
+									HSC School Name
+									</div>
+									<div class="col-md-6">
+										<input type="text" name="school2" class="form-control" placeholder="">
+									</div>
+								</div>
+								<br>
+								<div class="row">	
+									<div class="col-md-4">
+									HSC Total Mark
+									</div>
+									<div class="col-md-6">
+										<input type="text" name="mark2" class="form-control" placeholder="">
+									</div>
+								</div>
+								<br>
+								<div class="row">	
+									<div class="col-md-4">
+									HSC Percentage
+									</div>
+									<div class="col-md-6">
+										<input type="text" name="percent2" class="form-control" placeholder="">
+									</div>
+								</div>
+								<br>
+								<div class="row">	
+									<div class="col-md-4">
+									HSC Group
+									</div>
+									<div class="col-md-6">
+										<select name="hs_group" class="form-control">
+										<option value="">-Select-</option>
+										<option>Physics/Chemistry/Statistics/Mathematics</option>
+										<option>Physics/Chemistry/Comp.Science/Mathematics</option>
+										<option>Physics/Chemistry/Biology/Mathematics</option>
+										<option>Physics/Chemistry/Bio-Chemistry/Mathematics</option>
+										<option>Physics/Chemistry/Eng.For Comn/Mathematics</option>
+										<option>Physics/Chemistry/Mathematics/Home Science</option>
+										<option>Physics/Chemistry/Biology/Comp.Science</option>
+										</select>
+									</div>
+								</div>
+								
+								
+								</div>
+								<br>
+								
+								
+								<div class="row">	
+									<div class="col-md-4">
+									
+									</div>
+									<div class="col-md-6">
+										<button type="submit" class="genric-btn primary" style="float: right;" onClick="return validate()">Update</button>	
+									</div>
+								</div>
+										
+									
+									</div>
+									
+									
+								</div>
+							</form>	
+								
+						</div>
+					</div>
+				</div>	
+			</section>
+			<!-- End contact-page Area -->
+
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+													
+					</div>
+					<div class="footer-bottom row align-items-center justify-content-between">
+						<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Career Recommendation  <a href="https://colorlib.com" target="_blank"></a>  <a href="https://themewagon.com" target="_blank"></a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+						<div class="col-lg-6 col-sm-12 footer-social">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a>
+						</div>
+					</div>						
+				</div>
+			</footer>	
+			<!-- End footer Area -->	
+
+
+			<script src="../static/js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="../static/js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			<script src="../static/js/easing.min.js"></script>			
+			<script src="../static/js/hoverIntent.js"></script>
+			<script src="../static/js/superfish.min.js"></script>	
+			<script src="../static/js/jquery.ajaxchimp.min.js"></script>
+			<script src="../static/js/jquery.magnific-popup.min.js"></script>	
+    		<script src="../static/js/jquery.tabs.min.js"></script>						
+			<script src="../static/js/jquery.nice-select.min.js"></script>	
+			<script src="../static/js/owl.carousel.min.js"></script>									
+			<script src="../static/js/mail-script.js"></script>	
+			<script src="../static/js/main.js"></script>	
+		</body>
+	</html>
