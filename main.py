@@ -17,14 +17,40 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error as mse
+from dotenv import load_dotenv
 
+# Load environment variables from the .env file
+load_dotenv()
+
+# Retrieve environment variables
+db_host = os.getenv("DB_HOST")
+db_user = os.getenv("DB_USER")
+db_password = os.getenv("DB_PASSWORD")
+db_name = os.getenv("DB_NAME")
+db_charset = os.getenv("DB_CHARSET")
+# mydb = mysql.connector.connect(
+#   host="localhost",
+#   user="root",
+#   passwd="",
+#   charset="utf8",
+#   database="career_recommend"
+# )
 mydb = mysql.connector.connect(
-  host="localhost",
-  user="root",
-  passwd="",
-  charset="utf8",
-  database="career_recommend"
+    host=db_host,
+    user=db_user,
+    password=db_password,
+    database=db_name,
+    charset=db_charset
 )
+
+# mydb = mysql.connector.connect(
+#   host="localhost",
+#   user="root",
+#   passwd="",
+#   charset="utf8",
+#   database="career_recommend"
+# )
+
 app = Flask(__name__)
 ##session key
 app.secret_key = 'abcdef'
